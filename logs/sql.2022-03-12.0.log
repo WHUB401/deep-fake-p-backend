@@ -1,0 +1,31 @@
+2022-03-12 09:28:43,844 [http-nio-8080-exec-2] DEBUG -[SqlStatementLogger.java:94]- select deepfakede0_.id as id1_1_, deepfakede0_.filename as filename2_1_ from deepfake_detection deepfakede0_ limit ?
+2022-03-12 09:28:43,956 [http-nio-8080-exec-2] DEBUG -[SqlStatementLogger.java:94]- select count(deepfakede0_.id) as col_0_0_ from deepfake_detection deepfakede0_
+2022-03-12 18:56:41,790 [main] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
+2022-03-12 19:11:06,808 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 19:11:16,399 [http-nio-8080-exec-5] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 19:12:36,745 [http-nio-8080-exec-4] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
+2022-03-12 19:14:52,945 [http-nio-8080-exec-4] DEBUG -[SqlStatementLogger.java:94]- insert into video (filename) values (?)
+2022-03-12 19:15:00,295 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 19:15:33,186 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
+2022-03-12 19:15:33,212 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
+2022-03-12 19:15:34,159 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- insert into video (filename) values (?)
+2022-03-12 19:15:35,249 [http-nio-8080-exec-2] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 19:15:40,876 [http-nio-8080-exec-5] DEBUG -[SqlStatementLogger.java:94]- select deepfakede0_.id as id1_1_, deepfakede0_.filename as filename2_1_ from deepfake_detection deepfakede0_ where deepfakede0_.filename=?
+2022-03-12 19:15:40,888 [http-nio-8080-exec-5] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_ where video0_.filename=?
+2022-03-12 19:15:40,911 [http-nio-8080-exec-5] DEBUG -[SqlStatementLogger.java:94]- delete from video where id=?
+2022-03-12 19:15:42,278 [http-nio-8080-exec-6] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 19:15:47,312 [http-nio-8080-exec-10] DEBUG -[SqlStatementLogger.java:94]- select deepfakede0_.id as id1_1_, deepfakede0_.filename as filename2_1_ from deepfake_detection deepfakede0_ where deepfakede0_.filename=?
+2022-03-12 19:15:47,324 [http-nio-8080-exec-10] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_ where video0_.filename=?
+2022-03-12 19:15:47,326 [http-nio-8080-exec-10] DEBUG -[SqlStatementLogger.java:94]- delete from video where id=?
+2022-03-12 19:15:48,428 [http-nio-8080-exec-9] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 20:19:42,965 [http-nio-8080-exec-2] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 20:19:42,965 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 20:19:43,079 [http-nio-8080-exec-3] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 20:19:57,027 [http-nio-8080-exec-4] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 20:21:26,544 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
+2022-03-12 20:21:30,728 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- insert into video (filename) values (?)
+2022-03-12 20:21:35,756 [http-nio-8080-exec-2] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_
+2022-03-12 20:21:56,746 [http-nio-8080-exec-7] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
+2022-03-12 20:21:56,751 [http-nio-8080-exec-7] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
+2022-03-12 20:21:57,832 [http-nio-8080-exec-7] DEBUG -[SqlStatementLogger.java:94]- insert into video (filename) values (?)
+2022-03-12 20:22:00,305 [http-nio-8080-exec-2] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as id1_11_, video0_.filename as filename2_11_ from video video0_

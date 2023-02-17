@@ -1,0 +1,15 @@
+2022-03-26 10:54:43,772 [main] INFO  -[StartupInfoLogger.java:55]- Starting InterceptAllVideoPhotoTest using Java 1.8.0_261 on LZD-20210917XHH with PID 11504 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-03-26 10:54:43,775 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-03-26 10:54:57,556 [main] INFO  -[StartupInfoLogger.java:61]- Started InterceptAllVideoPhotoTest in 14.065 seconds (JVM running for 15.051)
+2022-03-26 10:55:44,738 [main] INFO  -[StartupInfoLogger.java:55]- Starting InterceptAllVideoPhotoTest using Java 1.8.0_261 on LZD-20210917XHH with PID 17516 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-03-26 10:55:44,741 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-03-26 10:55:53,738 [main] INFO  -[StartupInfoLogger.java:61]- Started InterceptAllVideoPhotoTest in 9.282 seconds (JVM running for 11.016)
+2022-03-26 10:58:21,298 [main] INFO  -[StartupInfoLogger.java:55]- Starting InterceptAllVideoPhotoTest using Java 1.8.0_261 on LZD-20210917XHH with PID 9944 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-03-26 10:58:21,300 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-03-26 10:58:43,200 [main] INFO  -[StartupInfoLogger.java:61]- Started InterceptAllVideoPhotoTest in 22.278 seconds (JVM running for 25.154)
+2022-03-26 11:06:35,847 [main] INFO  -[StartupInfoLogger.java:55]- Starting InterceptAllVideoPhotoTest using Java 1.8.0_261 on LZD-20210917XHH with PID 15600 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-03-26 11:06:35,849 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-03-26 11:06:45,909 [main] INFO  -[StartupInfoLogger.java:61]- Started InterceptAllVideoPhotoTest in 10.42 seconds (JVM running for 11.681)
+2022-03-26 12:21:52,894 [main] INFO  -[StartupInfoLogger.java:55]- Starting InterceptAllVideoPhotoTest using Java 1.8.0_261 on LZD-20210917XHH with PID 5168 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-03-26 12:21:52,895 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-03-26 12:22:04,714 [main] INFO  -[StartupInfoLogger.java:61]- Started InterceptAllVideoPhotoTest in 12.08 seconds (JVM running for 13.017)

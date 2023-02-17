@@ -1,0 +1,2 @@
+2022-03-25 11:31:56,207 [main] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
+2022-03-25 11:34:27,783 [http-nio-8080-exec-1] DEBUG -[SqlStatementLogger.java:94]- select tracedetec0_.id as id1_11_, tracedetec0_.filename as filename2_11_, tracedetec0_.result as result3_11_ from trace_detection tracedetec0_ limit ?

@@ -1,0 +1,1 @@
+2022-03-15 15:56:51,875 [http-nio-8080-exec-2] DEBUG -[SqlStatementLogger.java:94]- select videodatas0_.id as id1_12_, videodatas0_.datasetname as datasetn2_12_, videodatas0_.path as path3_12_ from videodataset videodatas0_ where videodatas0_.datasetname=?

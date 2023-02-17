@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--日志配置-->
+<configuration>
+    <!--直接定义属性-->
+    <property name="logHome" value="logs"/>
+    <property name="maxFileSize" value="30MB"/>
+
+    <!--控制台日志-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{50} -[%file:%line]- %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--滚动文件日志-->
+    <appender name="fileLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logHome}/deepfake.log</file>
+        <encoder>
+            <!--日志输出格式-->
+            <pattern>%d [%thread] %-5level -[%file:%line]- %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${logHome}/deepfake.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>${maxFileSize}</maxFileSize>
+        </rollingPolicy>
+    </appender>
+    <appender name="sqllog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logHome}/sql.log</file>
+        <encoder>
+            <!--日志输出格式-->
+            <pattern>%d [%thread] %-5level -[%file:%line]- %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${logHome}/sql.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>${maxFileSize}</maxFileSize>
+        </rollingPolicy>
+    </appender>
+    <appender name="TRACE_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logHome}/trace/trace.log</file>
+        <encoder>
+            <!--日志输出格式-->
+            <pattern>%d [%thread] %-5level -[%file:%line]- %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 日志归档 -->
+            <fileNamePattern>${logHome}/trace/trace.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- 单个文件最大30M -->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>30MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <!-- 此日志文件只记录debug级别的 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>trace</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+    <appender name="DEBUG_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logHome}/debug/debug.log</file>
+        <encoder>
+            <!--日志输出格式-->
+            <pattern>%d [%thread] %-5level -[%file:%line]- %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 日志归档 -->
+            <fileNamePattern>${logHome}/debug/debug.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- 单个文件最大30M -->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>30MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <!-- 此日志文件只记录debug级别的 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>debug</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+    <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logHome}/info/info.log</file>
+        <encoder>
+            <!--日志输出格式-->
+            <pattern>%d [%thread] %-5level -[%file:%line]- %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 日志归档 -->
+            <fileNamePattern>${logHome}/info/info.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- 单个文件最大30M -->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>30MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <!-- 此日志文件只记录debug级别的 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>info</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+    <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logHome}/error/error.log</file>
+        <encoder>
+            <!--日志输出格式-->
+            <pattern>%d [%thread] %-5level -[%file:%line]- %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 日志归档 -->
+            <fileNamePattern>${logHome}/error/error.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- 单个文件最大30M -->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>30MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <!-- 此日志文件只记录debug级别的 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>error</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+    <appender name="FATAL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logHome}/fatal/fatal.log</file>
+        <encoder>
+            <!--日志输出格式-->
+            <pattern>%d [%thread] %-5level -[%file:%line]- %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 日志归档 -->
+            <fileNamePattern>${logHome}/fatal/fatal.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- 单个文件最大30M -->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>30MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <!-- 此日志文件只记录debug级别的 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>fatal</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!--创建一个具体的日志输出-->
+    <logger name="org.hibernate.SQL" level="debug" additivity="false">
+        <!--可以有多个appender-ref，即将日志记录到不同的位置-->
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="sqllog"/>
+    </logger>
+    <logger name="com.pharaoh.deepfake" level="info" additivity="true">
+        <!--可以有多个appender-ref，即将日志记录到不同的位置-->
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="fileLog"/>
+    </logger>
+    <logger name="com.pharaoh.deepfake" additivity="true">
+        <!--可以有多个appender-ref，即将日志记录到不同的位置-->
+<!--        <appender-ref ref="DEBUG_FILE"/>-->
+<!--        <appender-ref ref="INFO_FILE"/>-->
+<!--        <appender-ref ref="ERROR_FILE"/>-->
+<!--        <appender-ref ref="FATAL_FILE"/>-->
+    </logger>
+
+
+    <!--基础的日志输出-->
+    <root level="debug">
+<!--        <appender-ref ref="STDOUT"/>-->
+<!--        <appender-ref ref="fileLog"/>-->
+        <appender-ref ref="DEBUG_FILE"/>
+        <appender-ref ref="INFO_FILE"/>
+        <appender-ref ref="ERROR_FILE"/>
+        <appender-ref ref="FATAL_FILE"/>
+    </root>
+</configuration>

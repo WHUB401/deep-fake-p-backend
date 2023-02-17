@@ -1,0 +1,1 @@
+2022-03-28 20:26:44,505 [main] ERROR -[SqlExceptionHelper.java:142]- Duplicate entry 'result/adversarial_detection/Deepfakes/000_003.mp4' for key 'adversarial_detection.adversarial_detection_resultpath_uindex'

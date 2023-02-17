@@ -1,0 +1,30 @@
+2022-04-02 10:55:57,098 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 15996 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 10:55:57,100 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 10:56:05,536 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 8.73 seconds (JVM running for 9.712)
+2022-04-02 10:57:13,263 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 7900 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 10:57:13,267 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 10:57:21,256 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 8.264 seconds (JVM running for 9.118)
+2022-04-02 10:59:23,409 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 21152 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 10:59:23,410 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 10:59:33,055 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 9.979 seconds (JVM running for 10.915)
+2022-04-02 11:14:23,622 [main] INFO  -[StartupInfoLogger.java:55]- Starting DeepfakeApplication using Java 1.8.0_261 on LZD-20210917XHH with PID 18992 (D:\workplace\deep-fake-p-backend\target\classes started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 11:14:23,624 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 11:14:28,364 [main] INFO  -[StartupInfoLogger.java:61]- Started DeepfakeApplication in 4.99 seconds (JVM running for 5.532)
+2022-04-02 11:16:54,610 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 19200 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 11:16:54,612 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 11:17:02,451 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 8.059 seconds (JVM running for 8.794)
+2022-04-02 11:19:50,918 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 6628 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 11:19:50,920 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 11:19:59,461 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 8.766 seconds (JVM running for 9.545)
+2022-04-02 11:23:37,661 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 14276 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 11:23:37,662 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 11:23:46,001 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 8.557 seconds (JVM running for 9.294)
+2022-04-02 11:34:16,450 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 10388 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 11:34:16,452 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 11:34:26,090 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 9.886 seconds (JVM running for 10.714)
+2022-04-02 11:37:36,437 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 18888 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 11:37:36,438 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 11:37:45,247 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 9.07 seconds (JVM running for 9.824)
+2022-04-02 11:49:20,359 [main] INFO  -[StartupInfoLogger.java:55]- Starting InitAdversarialDetectionDatabaseTest using Java 1.8.0_261 on LZD-20210917XHH with PID 13296 (started by Administrator in D:\workplace\deep-fake-p-backend)
+2022-04-02 11:49:20,361 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
+2022-04-02 11:49:30,193 [main] INFO  -[StartupInfoLogger.java:61]- Started InitAdversarialDetectionDatabaseTest in 10.065 seconds (JVM running for 10.841)
