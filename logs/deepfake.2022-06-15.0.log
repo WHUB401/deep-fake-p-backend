@@ -1,6 +1,0 @@
-2022-06-15 18:43:21,988 [main] INFO  -[StartupInfoLogger.java:55]- Starting DeepfakeApplication using Java 1.8.0_261 on LZD-20210917XHH with PID 40012 (D:\workplace\deep-fake-p-backend\target\classes started by Administrator in D:\workplace\deep-fake-p-backend)
-2022-06-15 18:43:21,993 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
-2022-06-15 18:43:27,436 [main] INFO  -[StartupInfoLogger.java:61]- Started DeepfakeApplication in 5.738 seconds (JVM running for 6.387)
-2022-06-15 18:45:18,041 [main] INFO  -[StartupInfoLogger.java:55]- Starting DeepfakeApplication using Java 1.8.0_261 on LZD-20210917XHH with PID 2368 (D:\workplace\deep-fake-p-backend\target\classes started by Administrator in D:\workplace\deep-fake-p-backend)
-2022-06-15 18:45:18,047 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
-2022-06-15 18:45:22,951 [main] INFO  -[StartupInfoLogger.java:61]- Started DeepfakeApplication in 5.173 seconds (JVM running for 5.851)

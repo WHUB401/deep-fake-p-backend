@@ -1,6 +1,0 @@
-2022-03-25 11:31:44,998 [main] INFO  -[StartupInfoLogger.java:55]- Starting RenameFileTest using Java 1.8.0_261 on LZD-20210917XHH with PID 14632 (started by Administrator in D:\workplace\deep-fake-p-backend)
-2022-03-25 11:31:45,001 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
-2022-03-25 11:31:55,948 [main] INFO  -[StartupInfoLogger.java:61]- Started RenameFileTest in 11.294 seconds (JVM running for 12.737)
-2022-03-25 11:33:25,552 [main] INFO  -[StartupInfoLogger.java:55]- Starting DeepfakeApplication using Java 1.8.0_261 on LZD-20210917XHH with PID 18416 (D:\workplace\deep-fake-p-backend\target\classes started by Administrator in D:\workplace\deep-fake-p-backend)
-2022-03-25 11:33:25,555 [main] INFO  -[SpringApplication.java:659]- No active profile set, falling back to default profiles: default
-2022-03-25 11:33:31,725 [main] INFO  -[StartupInfoLogger.java:61]- Started DeepfakeApplication in 6.488 seconds (JVM running for 7.776)

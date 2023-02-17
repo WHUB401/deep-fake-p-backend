@@ -1,1 +1,0 @@
-2022-03-29 09:42:38,808 [main] DEBUG -[SqlStatementLogger.java:94]- select video0_.id as col_0_0_ from video video0_ where video0_.filename=? limit ?
