@@ -1,0 +1,2270 @@
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From demo_two_stream.py:141: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From demo_two_stream.py:145: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-03-17 08:20:58.993726: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2022-03-17 08:20:59.102367: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2022-03-17 08:20:59.105383: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5633717e8900 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-03-17 08:20:59.105412: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-03-17 08:20:59.119654: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-03-17 08:21:02.334399: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56336ebe7fb0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2022-03-17 08:21:02.334478: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-03-17 08:21:02.336916: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1639] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:18:00.0
+2022-03-17 08:21:02.337366: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/conda/lib/python3.7/site-packages/cv2/../../lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2022-03-17 08:21:02.337658: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/conda/lib/python3.7/site-packages/cv2/../../lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2022-03-17 08:21:02.337925: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/conda/lib/python3.7/site-packages/cv2/../../lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2022-03-17 08:21:02.338179: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/conda/lib/python3.7/site-packages/cv2/../../lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2022-03-17 08:21:02.338456: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/conda/lib/python3.7/site-packages/cv2/../../lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2022-03-17 08:21:02.338706: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/conda/lib/python3.7/site-packages/cv2/../../lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2022-03-17 08:21:02.338959: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/conda/lib/python3.7/site-packages/cv2/../../lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2022-03-17 08:21:02.338992: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1662] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-03-17 08:21:02.339030: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1180] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-03-17 08:21:02.339052: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1186]      0 
+2022-03-17 08:21:02.339071: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1199] 0:   N 
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:262: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:288: The name tf.no_regularizer is deprecated. Please use tf.compat.v1.no_regularizer instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/nets/vgg16.py:22: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /opt/conda/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1057: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:185: The name tf.ceil is deprecated. Please use tf.math.ceil instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:185: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:190: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:120: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:129: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /workspace/forgery/lib/utils/compact_bilinear_pooling.py:43: The name tf.sparse_reorder is deprecated. Please use tf.sparse.reorder instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/utils/compact_bilinear_pooling.py:123: The name tf.sparse_tensor_dense_matmul is deprecated. Please use tf.sparse.sparse_dense_matmul instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/utils/compact_bilinear_pooling.py:13: The name tf.fft is deprecated. Please use tf.signal.fft instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/utils/compact_bilinear_pooling.py:139: The name tf.real is deprecated. Please use tf.math.real instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/utils/compact_bilinear_pooling.py:20: The name tf.ifft is deprecated. Please use tf.signal.ifft instead.
+
+WARNING:tensorflow:From /opt/conda/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:301: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From /opt/conda/lib/python3.7/site-packages/tensorflow_core/python/util/dispatch.py:180: calling expand_dims (from tensorflow.python.ops.array_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the `axis` argument instead
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:60: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:68: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:64: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From /workspace/forgery/lib/nets/network.py:325: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+WARNING:tensorflow:From demo_two_stream.py:154: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+setGPU: Setting GPU to: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/data/workspace/forgery_detection
+Loaded network checkpoint/DIY_dataset/vgg16_faster_rcnn_iter_15000.ckpt
+349.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 349.jpg
+Detection took 6.055s for 300 object proposals
+no tampered founded!!!!!!!!!
+255.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 255.jpg
+Detection took 4.727s for 300 object proposals
+no tampered founded!!!!!!!!!
+22.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 22.jpg
+Detection took 4.721s for 300 object proposals
+59.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 59.jpg
+Detection took 4.277s for 300 object proposals
+190.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 190.jpg
+Detection took 4.310s for 300 object proposals
+no tampered founded!!!!!!!!!
+405.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 405.jpg
+Detection took 4.544s for 300 object proposals
+no tampered founded!!!!!!!!!
+412.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 412.jpg
+Detection took 4.178s for 300 object proposals
+no tampered founded!!!!!!!!!
+352.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 352.jpg
+Detection took 4.429s for 300 object proposals
+no tampered founded!!!!!!!!!
+64.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 64.jpg
+Detection took 4.448s for 300 object proposals
+266.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 266.jpg
+Detection took 4.237s for 300 object proposals
+no tampered founded!!!!!!!!!
+8.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 8.jpg
+Detection took 4.073s for 300 object proposals
+no tampered founded!!!!!!!!!
+17.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 17.jpg
+Detection took 4.219s for 300 object proposals
+129.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 129.jpg
+Detection took 4.343s for 300 object proposals
+no tampered founded!!!!!!!!!
+348.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 348.jpg
+Detection took 4.342s for 300 object proposals
+no tampered founded!!!!!!!!!
+148.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 148.jpg
+Detection took 3.910s for 300 object proposals
+no tampered founded!!!!!!!!!
+143.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 143.jpg
+Detection took 4.124s for 300 object proposals
+no tampered founded!!!!!!!!!
+346.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 346.jpg
+Detection took 4.378s for 300 object proposals
+no tampered founded!!!!!!!!!
+320.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 320.jpg
+Detection took 3.995s for 300 object proposals
+no tampered founded!!!!!!!!!
+350.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 350.jpg
+Detection took 4.007s for 300 object proposals
+no tampered founded!!!!!!!!!
+193.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 193.jpg
+Detection took 4.189s for 300 object proposals
+no tampered founded!!!!!!!!!
+93.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 93.jpg
+Detection took 3.902s for 300 object proposals
+no tampered founded!!!!!!!!!
+81.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 81.jpg
+Detection took 4.454s for 300 object proposals
+no tampered founded!!!!!!!!!
+107.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 107.jpg
+Detection took 4.137s for 300 object proposals
+no tampered founded!!!!!!!!!
+218.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 218.jpg
+Detection took 4.159s for 300 object proposals
+no tampered founded!!!!!!!!!
+68.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 68.jpg
+Detection took 3.610s for 300 object proposals
+no tampered founded!!!!!!!!!
+291.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 291.jpg
+Detection took 4.099s for 300 object proposals
+no tampered founded!!!!!!!!!
+245.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 245.jpg
+Detection took 4.441s for 300 object proposals
+no tampered founded!!!!!!!!!
+167.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 167.jpg
+Detection took 4.892s for 300 object proposals
+no tampered founded!!!!!!!!!
+401.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 401.jpg
+Detection took 4.713s for 300 object proposals
+no tampered founded!!!!!!!!!
+339.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 339.jpg
+Detection took 4.423s for 300 object proposals
+no tampered founded!!!!!!!!!
+263.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 263.jpg
+Detection took 4.711s for 300 object proposals
+no tampered founded!!!!!!!!!
+358.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 358.jpg
+Detection took 4.541s for 300 object proposals
+no tampered founded!!!!!!!!!
+182.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 182.jpg
+Detection took 4.636s for 300 object proposals
+no tampered founded!!!!!!!!!
+289.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 289.jpg
+Detection took 4.578s for 300 object proposals
+no tampered founded!!!!!!!!!
+74.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 74.jpg
+Detection took 4.786s for 300 object proposals
+no tampered founded!!!!!!!!!
+408.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 408.jpg
+Detection took 4.633s for 300 object proposals
+no tampered founded!!!!!!!!!
+158.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 158.jpg
+Detection took 4.348s for 300 object proposals
+no tampered founded!!!!!!!!!
+176.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 176.jpg
+Detection took 4.570s for 300 object proposals
+no tampered founded!!!!!!!!!
+2.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 2.jpg
+Detection took 4.447s for 300 object proposals
+no tampered founded!!!!!!!!!
+429.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 429.jpg
+Detection took 4.339s for 300 object proposals
+no tampered founded!!!!!!!!!
+3.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 3.jpg
+Detection took 4.697s for 300 object proposals
+no tampered founded!!!!!!!!!
+30.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 30.jpg
+Detection took 4.788s for 300 object proposals
+208.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 208.jpg
+Detection took 4.307s for 300 object proposals
+no tampered founded!!!!!!!!!
+345.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 345.jpg
+Detection took 4.777s for 300 object proposals
+no tampered founded!!!!!!!!!
+398.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 398.jpg
+Detection took 4.615s for 300 object proposals
+no tampered founded!!!!!!!!!
+315.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 315.jpg
+Detection took 4.323s for 300 object proposals
+no tampered founded!!!!!!!!!
+162.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 162.jpg
+Detection took 4.476s for 300 object proposals
+no tampered founded!!!!!!!!!
+318.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 318.jpg
+Detection took 4.561s for 300 object proposals
+no tampered founded!!!!!!!!!
+436.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 436.jpg
+Detection took 4.571s for 300 object proposals
+no tampered founded!!!!!!!!!
+42.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 42.jpg
+Detection took 4.275s for 300 object proposals
+306.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 306.jpg
+Detection took 4.621s for 300 object proposals
+no tampered founded!!!!!!!!!
+142.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 142.jpg
+Detection took 4.361s for 300 object proposals
+no tampered founded!!!!!!!!!
+95.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 95.jpg
+Detection took 4.737s for 300 object proposals
+no tampered founded!!!!!!!!!
+56.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 56.jpg
+Detection took 4.353s for 300 object proposals
+1.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 1.jpg
+Detection took 4.593s for 300 object proposals
+no tampered founded!!!!!!!!!
+426.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 426.jpg
+Detection took 4.794s for 300 object proposals
+no tampered founded!!!!!!!!!
+237.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 237.jpg
+Detection took 4.407s for 300 object proposals
+no tampered founded!!!!!!!!!
+4.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 4.jpg
+Detection took 4.596s for 300 object proposals
+no tampered founded!!!!!!!!!
+26.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 26.jpg
+Detection took 4.436s for 300 object proposals
+271.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 271.jpg
+Detection took 4.470s for 300 object proposals
+no tampered founded!!!!!!!!!
+414.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 414.jpg
+Detection took 4.711s for 300 object proposals
+no tampered founded!!!!!!!!!
+280.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 280.jpg
+Detection took 4.270s for 300 object proposals
+no tampered founded!!!!!!!!!
+387.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 387.jpg
+Detection took 4.488s for 300 object proposals
+no tampered founded!!!!!!!!!
+334.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 334.jpg
+Detection took 4.432s for 300 object proposals
+no tampered founded!!!!!!!!!
+389.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 389.jpg
+Detection took 4.371s for 300 object proposals
+no tampered founded!!!!!!!!!
+260.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 260.jpg
+Detection took 4.854s for 300 object proposals
+no tampered founded!!!!!!!!!
+415.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 415.jpg
+Detection took 4.512s for 300 object proposals
+no tampered founded!!!!!!!!!
+441.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 441.jpg
+Detection took 4.528s for 300 object proposals
+no tampered founded!!!!!!!!!
+207.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 207.jpg
+Detection took 4.324s for 300 object proposals
+no tampered founded!!!!!!!!!
+50.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 50.jpg
+Detection took 4.477s for 300 object proposals
+205.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 205.jpg
+Detection took 4.313s for 300 object proposals
+no tampered founded!!!!!!!!!
+239.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 239.jpg
+Detection took 4.599s for 300 object proposals
+no tampered founded!!!!!!!!!
+367.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 367.jpg
+Detection took 4.330s for 300 object proposals
+no tampered founded!!!!!!!!!
+73.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 73.jpg
+Detection took 4.439s for 300 object proposals
+no tampered founded!!!!!!!!!
+105.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 105.jpg
+Detection took 4.362s for 300 object proposals
+no tampered founded!!!!!!!!!
+355.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 355.jpg
+Detection took 4.589s for 300 object proposals
+no tampered founded!!!!!!!!!
+368.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 368.jpg
+Detection took 4.126s for 300 object proposals
+no tampered founded!!!!!!!!!
+410.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 410.jpg
+Detection took 4.402s for 300 object proposals
+no tampered founded!!!!!!!!!
+403.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 403.jpg
+Detection took 4.415s for 300 object proposals
+no tampered founded!!!!!!!!!
+425.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 425.jpg
+Detection took 4.378s for 300 object proposals
+no tampered founded!!!!!!!!!
+125.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 125.jpg
+Detection took 4.599s for 300 object proposals
+no tampered founded!!!!!!!!!
+0.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 0.jpg
+Detection took 4.489s for 300 object proposals
+no tampered founded!!!!!!!!!
+369.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 369.jpg
+Detection took 4.535s for 300 object proposals
+no tampered founded!!!!!!!!!
+236.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 236.jpg
+Detection took 4.412s for 300 object proposals
+no tampered founded!!!!!!!!!
+340.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 340.jpg
+Detection took 4.553s for 300 object proposals
+no tampered founded!!!!!!!!!
+21.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 21.jpg
+Detection took 4.481s for 300 object proposals
+35.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 35.jpg
+Detection took 4.464s for 300 object proposals
+357.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 357.jpg
+Detection took 4.805s for 300 object proposals
+no tampered founded!!!!!!!!!
+83.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 83.jpg
+Detection took 4.395s for 300 object proposals
+no tampered founded!!!!!!!!!
+126.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 126.jpg
+Detection took 4.807s for 300 object proposals
+no tampered founded!!!!!!!!!
+10.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 10.jpg
+Detection took 4.380s for 300 object proposals
+no tampered founded!!!!!!!!!
+296.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 296.jpg
+Detection took 4.921s for 300 object proposals
+no tampered founded!!!!!!!!!
+384.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 384.jpg
+Detection took 4.753s for 300 object proposals
+no tampered founded!!!!!!!!!
+114.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 114.jpg
+Detection took 4.390s for 300 object proposals
+no tampered founded!!!!!!!!!
+144.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 144.jpg
+Detection took 4.359s for 300 object proposals
+no tampered founded!!!!!!!!!
+292.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 292.jpg
+Detection took 4.260s for 300 object proposals
+no tampered founded!!!!!!!!!
+170.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 170.jpg
+Detection took 4.357s for 300 object proposals
+no tampered founded!!!!!!!!!
+103.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 103.jpg
+Detection took 4.768s for 300 object proposals
+no tampered founded!!!!!!!!!
+69.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 69.jpg
+Detection took 4.232s for 300 object proposals
+no tampered founded!!!!!!!!!
+57.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 57.jpg
+Detection took 4.639s for 300 object proposals
+80.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 80.jpg
+Detection took 4.261s for 300 object proposals
+no tampered founded!!!!!!!!!
+192.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 192.jpg
+Detection took 4.742s for 300 object proposals
+no tampered founded!!!!!!!!!
+269.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 269.jpg
+Detection took 4.347s for 300 object proposals
+no tampered founded!!!!!!!!!
+242.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 242.jpg
+Detection took 4.518s for 300 object proposals
+no tampered founded!!!!!!!!!
+24.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 24.jpg
+Detection took 4.365s for 300 object proposals
+411.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 411.jpg
+Detection took 4.629s for 300 object proposals
+no tampered founded!!!!!!!!!
+312.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 312.jpg
+Detection took 4.388s for 300 object proposals
+no tampered founded!!!!!!!!!
+373.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 373.jpg
+Detection took 4.456s for 300 object proposals
+no tampered founded!!!!!!!!!
+333.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 333.jpg
+Detection took 4.331s for 300 object proposals
+no tampered founded!!!!!!!!!
+288.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 288.jpg
+Detection took 4.418s for 300 object proposals
+no tampered founded!!!!!!!!!
+71.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 71.jpg
+Detection took 4.330s for 300 object proposals
+no tampered founded!!!!!!!!!
+281.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 281.jpg
+Detection took 4.271s for 300 object proposals
+no tampered founded!!!!!!!!!
+329.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 329.jpg
+Detection took 3.921s for 300 object proposals
+no tampered founded!!!!!!!!!
+12.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 12.jpg
+Detection took 4.420s for 300 object proposals
+no tampered founded!!!!!!!!!
+131.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 131.jpg
+Detection took 4.656s for 300 object proposals
+no tampered founded!!!!!!!!!
+174.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 174.jpg
+Detection took 4.384s for 300 object proposals
+no tampered founded!!!!!!!!!
+38.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 38.jpg
+Detection took 4.618s for 300 object proposals
+27.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 27.jpg
+Detection took 4.442s for 300 object proposals
+72.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 72.jpg
+Detection took 4.478s for 300 object proposals
+no tampered founded!!!!!!!!!
+305.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 305.jpg
+Detection took 4.506s for 300 object proposals
+no tampered founded!!!!!!!!!
+317.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 317.jpg
+Detection took 4.243s for 300 object proposals
+no tampered founded!!!!!!!!!
+379.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 379.jpg
+Detection took 4.489s for 300 object proposals
+no tampered founded!!!!!!!!!
+145.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 145.jpg
+Detection took 4.422s for 300 object proposals
+no tampered founded!!!!!!!!!
+353.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 353.jpg
+Detection took 4.494s for 300 object proposals
+no tampered founded!!!!!!!!!
+314.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 314.jpg
+Detection took 4.273s for 300 object proposals
+no tampered founded!!!!!!!!!
+223.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 223.jpg
+Detection took 4.349s for 300 object proposals
+no tampered founded!!!!!!!!!
+149.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 149.jpg
+Detection took 4.326s for 300 object proposals
+no tampered founded!!!!!!!!!
+435.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 435.jpg
+Detection took 4.771s for 300 object proposals
+no tampered founded!!!!!!!!!
+139.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 139.jpg
+Detection took 4.381s for 300 object proposals
+no tampered founded!!!!!!!!!
+184.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 184.jpg
+Detection took 4.353s for 300 object proposals
+no tampered founded!!!!!!!!!
+11.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 11.jpg
+Detection took 4.396s for 300 object proposals
+no tampered founded!!!!!!!!!
+300.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 300.jpg
+Detection took 4.381s for 300 object proposals
+no tampered founded!!!!!!!!!
+23.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 23.jpg
+Detection took 4.922s for 300 object proposals
+283.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 283.jpg
+Detection took 4.342s for 300 object proposals
+no tampered founded!!!!!!!!!
+78.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 78.jpg
+Detection took 4.427s for 300 object proposals
+no tampered founded!!!!!!!!!
+301.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 301.jpg
+Detection took 4.332s for 300 object proposals
+no tampered founded!!!!!!!!!
+321.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 321.jpg
+Detection took 4.395s for 300 object proposals
+no tampered founded!!!!!!!!!
+130.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 130.jpg
+Detection took 4.706s for 300 object proposals
+no tampered founded!!!!!!!!!
+89.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 89.jpg
+Detection took 4.317s for 300 object proposals
+no tampered founded!!!!!!!!!
+416.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 416.jpg
+Detection took 4.609s for 300 object proposals
+no tampered founded!!!!!!!!!
+356.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 356.jpg
+Detection took 4.314s for 300 object proposals
+no tampered founded!!!!!!!!!
+173.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 173.jpg
+Detection took 4.620s for 300 object proposals
+no tampered founded!!!!!!!!!
+146.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 146.jpg
+Detection took 4.338s for 300 object proposals
+no tampered founded!!!!!!!!!
+112.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 112.jpg
+Detection took 4.454s for 300 object proposals
+no tampered founded!!!!!!!!!
+267.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 267.jpg
+Detection took 4.429s for 300 object proposals
+no tampered founded!!!!!!!!!
+154.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 154.jpg
+Detection took 4.614s for 300 object proposals
+no tampered founded!!!!!!!!!
+137.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 137.jpg
+Detection took 4.195s for 300 object proposals
+no tampered founded!!!!!!!!!
+257.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 257.jpg
+Detection took 4.450s for 300 object proposals
+no tampered founded!!!!!!!!!
+228.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 228.jpg
+Detection took 4.294s for 300 object proposals
+no tampered founded!!!!!!!!!
+249.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 249.jpg
+Detection took 4.348s for 300 object proposals
+no tampered founded!!!!!!!!!
+15.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 15.jpg
+Detection took 4.387s for 300 object proposals
+310.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 310.jpg
+Detection took 4.767s for 300 object proposals
+no tampered founded!!!!!!!!!
+118.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 118.jpg
+Detection took 4.248s for 300 object proposals
+no tampered founded!!!!!!!!!
+210.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 210.jpg
+Detection took 3.218s for 300 object proposals
+no tampered founded!!!!!!!!!
+116.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 116.jpg
+Detection took 3.373s for 300 object proposals
+no tampered founded!!!!!!!!!
+213.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 213.jpg
+Detection took 3.292s for 300 object proposals
+no tampered founded!!!!!!!!!
+39.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 39.jpg
+Detection took 3.403s for 300 object proposals
+232.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 232.jpg
+Detection took 3.303s for 300 object proposals
+no tampered founded!!!!!!!!!
+16.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 16.jpg
+Detection took 3.316s for 300 object proposals
+342.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 342.jpg
+Detection took 3.397s for 300 object proposals
+no tampered founded!!!!!!!!!
+54.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 54.jpg
+Detection took 3.539s for 300 object proposals
+234.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 234.jpg
+Detection took 3.270s for 300 object proposals
+no tampered founded!!!!!!!!!
+100.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 100.jpg
+Detection took 3.367s for 300 object proposals
+no tampered founded!!!!!!!!!
+183.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 183.jpg
+Detection took 3.257s for 300 object proposals
+no tampered founded!!!!!!!!!
+297.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 297.jpg
+Detection took 3.290s for 300 object proposals
+no tampered founded!!!!!!!!!
+326.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 326.jpg
+Detection took 3.219s for 300 object proposals
+no tampered founded!!!!!!!!!
+186.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 186.jpg
+Detection took 3.325s for 300 object proposals
+no tampered founded!!!!!!!!!
+274.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 274.jpg
+Detection took 3.498s for 300 object proposals
+no tampered founded!!!!!!!!!
+117.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 117.jpg
+Detection took 3.404s for 300 object proposals
+no tampered founded!!!!!!!!!
+20.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 20.jpg
+Detection took 3.406s for 300 object proposals
+294.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 294.jpg
+Detection took 3.398s for 300 object proposals
+no tampered founded!!!!!!!!!
+40.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 40.jpg
+Detection took 3.351s for 300 object proposals
+394.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 394.jpg
+Detection took 3.440s for 300 object proposals
+no tampered founded!!!!!!!!!
+388.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 388.jpg
+Detection took 3.385s for 300 object proposals
+no tampered founded!!!!!!!!!
+175.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 175.jpg
+Detection took 3.342s for 300 object proposals
+no tampered founded!!!!!!!!!
+362.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 362.jpg
+Detection took 3.215s for 300 object proposals
+no tampered founded!!!!!!!!!
+127.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 127.jpg
+Detection took 3.204s for 300 object proposals
+no tampered founded!!!!!!!!!
+434.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 434.jpg
+Detection took 3.289s for 300 object proposals
+no tampered founded!!!!!!!!!
+225.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 225.jpg
+Detection took 3.342s for 300 object proposals
+no tampered founded!!!!!!!!!
+165.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 165.jpg
+Detection took 3.303s for 300 object proposals
+no tampered founded!!!!!!!!!
+115.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 115.jpg
+Detection took 3.280s for 300 object proposals
+no tampered founded!!!!!!!!!
+187.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 187.jpg
+Detection took 3.197s for 300 object proposals
+no tampered founded!!!!!!!!!
+240.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 240.jpg
+Detection took 3.305s for 300 object proposals
+no tampered founded!!!!!!!!!
+201.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 201.jpg
+Detection took 3.201s for 300 object proposals
+no tampered founded!!!!!!!!!
+319.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 319.jpg
+Detection took 3.365s for 300 object proposals
+no tampered founded!!!!!!!!!
+108.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 108.jpg
+Detection took 3.376s for 300 object proposals
+no tampered founded!!!!!!!!!
+229.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 229.jpg
+Detection took 3.348s for 300 object proposals
+no tampered founded!!!!!!!!!
+376.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 376.jpg
+Detection took 3.266s for 300 object proposals
+no tampered founded!!!!!!!!!
+417.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 417.jpg
+Detection took 3.371s for 300 object proposals
+no tampered founded!!!!!!!!!
+25.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 25.jpg
+Detection took 3.333s for 300 object proposals
+51.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 51.jpg
+Detection took 3.478s for 300 object proposals
+259.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 259.jpg
+Detection took 3.378s for 300 object proposals
+no tampered founded!!!!!!!!!
+141.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 141.jpg
+Detection took 3.176s for 300 object proposals
+no tampered founded!!!!!!!!!
+45.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 45.jpg
+Detection took 3.297s for 300 object proposals
+409.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 409.jpg
+Detection took 3.228s for 300 object proposals
+no tampered founded!!!!!!!!!
+9.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 9.jpg
+Detection took 3.395s for 300 object proposals
+no tampered founded!!!!!!!!!
+308.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 308.jpg
+Detection took 3.243s for 300 object proposals
+no tampered founded!!!!!!!!!
+330.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 330.jpg
+Detection took 3.303s for 300 object proposals
+no tampered founded!!!!!!!!!
+195.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 195.jpg
+Detection took 3.276s for 300 object proposals
+no tampered founded!!!!!!!!!
+377.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 377.jpg
+Detection took 3.276s for 300 object proposals
+no tampered founded!!!!!!!!!
+85.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 85.jpg
+Detection took 3.300s for 300 object proposals
+no tampered founded!!!!!!!!!
+406.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 406.jpg
+Detection took 3.261s for 300 object proposals
+no tampered founded!!!!!!!!!
+197.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 197.jpg
+Detection took 3.240s for 300 object proposals
+no tampered founded!!!!!!!!!
+70.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 70.jpg
+Detection took 3.224s for 300 object proposals
+no tampered founded!!!!!!!!!
+79.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 79.jpg
+Detection took 3.278s for 300 object proposals
+no tampered founded!!!!!!!!!
+67.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 67.jpg
+Detection took 3.284s for 300 object proposals
+no tampered founded!!!!!!!!!
+380.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 380.jpg
+Detection took 3.338s for 300 object proposals
+no tampered founded!!!!!!!!!
+385.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 385.jpg
+Detection took 3.221s for 300 object proposals
+no tampered founded!!!!!!!!!
+96.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 96.jpg
+Detection took 3.317s for 300 object proposals
+no tampered founded!!!!!!!!!
+230.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 230.jpg
+Detection took 3.195s for 300 object proposals
+no tampered founded!!!!!!!!!
+132.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 132.jpg
+Detection took 3.371s for 300 object proposals
+no tampered founded!!!!!!!!!
+439.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 439.jpg
+Detection took 3.285s for 300 object proposals
+no tampered founded!!!!!!!!!
+413.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 413.jpg
+Detection took 3.251s for 300 object proposals
+no tampered founded!!!!!!!!!
+119.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 119.jpg
+Detection took 3.276s for 300 object proposals
+no tampered founded!!!!!!!!!
+395.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 395.jpg
+Detection took 3.191s for 300 object proposals
+no tampered founded!!!!!!!!!
+36.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 36.jpg
+Detection took 3.327s for 300 object proposals
+138.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 138.jpg
+Detection took 3.245s for 300 object proposals
+no tampered founded!!!!!!!!!
+180.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 180.jpg
+Detection took 3.282s for 300 object proposals
+no tampered founded!!!!!!!!!
+423.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 423.jpg
+Detection took 3.133s for 300 object proposals
+no tampered founded!!!!!!!!!
+179.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 179.jpg
+Detection took 3.262s for 300 object proposals
+no tampered founded!!!!!!!!!
+37.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 37.jpg
+Detection took 3.225s for 300 object proposals
+250.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 250.jpg
+Detection took 3.361s for 300 object proposals
+no tampered founded!!!!!!!!!
+215.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 215.jpg
+Detection took 3.249s for 300 object proposals
+no tampered founded!!!!!!!!!
+189.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 189.jpg
+Detection took 3.371s for 300 object proposals
+no tampered founded!!!!!!!!!
+264.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 264.jpg
+Detection took 3.254s for 300 object proposals
+no tampered founded!!!!!!!!!
+29.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 29.jpg
+Detection took 3.383s for 300 object proposals
+214.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 214.jpg
+Detection took 3.297s for 300 object proposals
+no tampered founded!!!!!!!!!
+248.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 248.jpg
+Detection took 3.321s for 300 object proposals
+no tampered founded!!!!!!!!!
+98.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 98.jpg
+Detection took 3.285s for 300 object proposals
+no tampered founded!!!!!!!!!
+86.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 86.jpg
+Detection took 3.200s for 300 object proposals
+no tampered founded!!!!!!!!!
+122.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 122.jpg
+Detection took 3.304s for 300 object proposals
+no tampered founded!!!!!!!!!
+140.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 140.jpg
+Detection took 3.195s for 300 object proposals
+no tampered founded!!!!!!!!!
+393.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 393.jpg
+Detection took 3.359s for 300 object proposals
+no tampered founded!!!!!!!!!
+33.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 33.jpg
+Detection took 3.368s for 300 object proposals
+382.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 382.jpg
+Detection took 3.478s for 300 object proposals
+no tampered founded!!!!!!!!!
+418.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 418.jpg
+Detection took 3.404s for 300 object proposals
+no tampered founded!!!!!!!!!
+276.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 276.jpg
+Detection took 3.269s for 300 object proposals
+no tampered founded!!!!!!!!!
+171.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 171.jpg
+Detection took 3.417s for 300 object proposals
+no tampered founded!!!!!!!!!
+217.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 217.jpg
+Detection took 3.202s for 300 object proposals
+no tampered founded!!!!!!!!!
+166.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 166.jpg
+Detection took 3.419s for 300 object proposals
+no tampered founded!!!!!!!!!
+168.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 168.jpg
+Detection took 3.227s for 300 object proposals
+no tampered founded!!!!!!!!!
+275.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 275.jpg
+Detection took 3.322s for 300 object proposals
+no tampered founded!!!!!!!!!
+265.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 265.jpg
+Detection took 3.206s for 300 object proposals
+no tampered founded!!!!!!!!!
+19.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 19.jpg
+Detection took 3.468s for 300 object proposals
+226.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 226.jpg
+Detection took 3.234s for 300 object proposals
+no tampered founded!!!!!!!!!
+338.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 338.jpg
+Detection took 3.355s for 300 object proposals
+no tampered founded!!!!!!!!!
+251.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 251.jpg
+Detection took 3.389s for 300 object proposals
+no tampered founded!!!!!!!!!
+422.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 422.jpg
+Detection took 3.490s for 300 object proposals
+no tampered founded!!!!!!!!!
+211.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 211.jpg
+Detection took 3.234s for 300 object proposals
+no tampered founded!!!!!!!!!
+88.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 88.jpg
+Detection took 3.354s for 300 object proposals
+no tampered founded!!!!!!!!!
+231.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 231.jpg
+Detection took 3.698s for 300 object proposals
+no tampered founded!!!!!!!!!
+43.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 43.jpg
+Detection took 3.956s for 300 object proposals
+421.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 421.jpg
+Detection took 4.398s for 300 object proposals
+no tampered founded!!!!!!!!!
+106.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 106.jpg
+Detection took 4.311s for 300 object proposals
+no tampered founded!!!!!!!!!
+34.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 34.jpg
+Detection took 4.160s for 300 object proposals
+63.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 63.jpg
+Detection took 4.473s for 300 object proposals
+no tampered founded!!!!!!!!!
+177.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 177.jpg
+Detection took 4.325s for 300 object proposals
+no tampered founded!!!!!!!!!
+161.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 161.jpg
+Detection took 4.264s for 300 object proposals
+no tampered founded!!!!!!!!!
+336.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 336.jpg
+Detection took 4.098s for 300 object proposals
+no tampered founded!!!!!!!!!
+212.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 212.jpg
+Detection took 4.176s for 300 object proposals
+no tampered founded!!!!!!!!!
+48.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 48.jpg
+Detection took 4.160s for 300 object proposals
+402.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 402.jpg
+Detection took 4.101s for 300 object proposals
+no tampered founded!!!!!!!!!
+151.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 151.jpg
+Detection took 4.130s for 300 object proposals
+no tampered founded!!!!!!!!!
+47.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 47.jpg
+Detection took 4.179s for 300 object proposals
+378.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 378.jpg
+Detection took 4.169s for 300 object proposals
+no tampered founded!!!!!!!!!
+92.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 92.jpg
+Detection took 4.098s for 300 object proposals
+no tampered founded!!!!!!!!!
+216.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 216.jpg
+Detection took 4.134s for 300 object proposals
+no tampered founded!!!!!!!!!
+111.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 111.jpg
+Detection took 4.321s for 300 object proposals
+no tampered founded!!!!!!!!!
+302.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 302.jpg
+Detection took 4.150s for 300 object proposals
+no tampered founded!!!!!!!!!
+432.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 432.jpg
+Detection took 4.228s for 300 object proposals
+no tampered founded!!!!!!!!!
+374.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 374.jpg
+Detection took 4.217s for 300 object proposals
+no tampered founded!!!!!!!!!
+77.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 77.jpg
+Detection took 4.339s for 300 object proposals
+no tampered founded!!!!!!!!!
+75.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 75.jpg
+Detection took 4.125s for 300 object proposals
+no tampered founded!!!!!!!!!
+400.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 400.jpg
+Detection took 3.927s for 300 object proposals
+no tampered founded!!!!!!!!!
+337.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 337.jpg
+Detection took 3.529s for 300 object proposals
+no tampered founded!!!!!!!!!
+133.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 133.jpg
+Detection took 4.409s for 300 object proposals
+no tampered founded!!!!!!!!!
+191.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 191.jpg
+Detection took 4.527s for 300 object proposals
+no tampered founded!!!!!!!!!
+60.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 60.jpg
+Detection took 4.368s for 300 object proposals
+344.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 344.jpg
+Detection took 4.554s for 300 object proposals
+no tampered founded!!!!!!!!!
+295.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 295.jpg
+Detection took 4.332s for 300 object proposals
+no tampered founded!!!!!!!!!
+258.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 258.jpg
+Detection took 4.331s for 300 object proposals
+no tampered founded!!!!!!!!!
+61.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 61.jpg
+Detection took 4.793s for 300 object proposals
+277.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 277.jpg
+Detection took 4.422s for 300 object proposals
+no tampered founded!!!!!!!!!
+361.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 361.jpg
+Detection took 4.628s for 300 object proposals
+no tampered founded!!!!!!!!!
+28.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 28.jpg
+Detection took 4.313s for 300 object proposals
+120.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 120.jpg
+Detection took 4.595s for 300 object proposals
+no tampered founded!!!!!!!!!
+156.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 156.jpg
+Detection took 4.745s for 300 object proposals
+no tampered founded!!!!!!!!!
+97.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 97.jpg
+Detection took 4.490s for 300 object proposals
+no tampered founded!!!!!!!!!
+419.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 419.jpg
+Detection took 4.530s for 300 object proposals
+no tampered founded!!!!!!!!!
+392.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 392.jpg
+Detection took 4.508s for 300 object proposals
+no tampered founded!!!!!!!!!
+178.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 178.jpg
+Detection took 4.349s for 300 object proposals
+no tampered founded!!!!!!!!!
+347.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 347.jpg
+Detection took 4.656s for 300 object proposals
+no tampered founded!!!!!!!!!
+55.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 55.jpg
+Detection took 4.323s for 300 object proposals
+383.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 383.jpg
+Detection took 4.643s for 300 object proposals
+no tampered founded!!!!!!!!!
+381.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 381.jpg
+Detection took 4.257s for 300 object proposals
+no tampered founded!!!!!!!!!
+252.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 252.jpg
+Detection took 4.450s for 300 object proposals
+no tampered founded!!!!!!!!!
+219.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 219.jpg
+Detection took 4.478s for 300 object proposals
+no tampered founded!!!!!!!!!
+363.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 363.jpg
+Detection took 4.609s for 300 object proposals
+no tampered founded!!!!!!!!!
+256.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 256.jpg
+Detection took 4.376s for 300 object proposals
+no tampered founded!!!!!!!!!
+372.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 372.jpg
+Detection took 4.784s for 300 object proposals
+no tampered founded!!!!!!!!!
+200.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 200.jpg
+Detection took 4.758s for 300 object proposals
+no tampered founded!!!!!!!!!
+44.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 44.jpg
+Detection took 4.414s for 300 object proposals
+375.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 375.jpg
+Detection took 4.207s for 300 object proposals
+no tampered founded!!!!!!!!!
+135.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 135.jpg
+Detection took 4.665s for 300 object proposals
+no tampered founded!!!!!!!!!
+331.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 331.jpg
+Detection took 4.312s for 300 object proposals
+no tampered founded!!!!!!!!!
+157.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 157.jpg
+Detection took 4.787s for 300 object proposals
+no tampered founded!!!!!!!!!
+359.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 359.jpg
+Detection took 4.526s for 300 object proposals
+no tampered founded!!!!!!!!!
+279.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 279.jpg
+Detection took 4.428s for 300 object proposals
+no tampered founded!!!!!!!!!
+52.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 52.jpg
+Detection took 4.806s for 300 object proposals
+14.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 14.jpg
+Detection took 4.612s for 300 object proposals
+no tampered founded!!!!!!!!!
+221.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 221.jpg
+Detection took 4.410s for 300 object proposals
+no tampered founded!!!!!!!!!
+270.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 270.jpg
+Detection took 4.561s for 300 object proposals
+no tampered founded!!!!!!!!!
+220.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 220.jpg
+Detection took 4.419s for 300 object proposals
+no tampered founded!!!!!!!!!
+303.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 303.jpg
+Detection took 4.376s for 300 object proposals
+no tampered founded!!!!!!!!!
+31.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 31.jpg
+Detection took 4.325s for 300 object proposals
+121.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 121.jpg
+Detection took 4.273s for 300 object proposals
+no tampered founded!!!!!!!!!
+420.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 420.jpg
+Detection took 4.453s for 300 object proposals
+no tampered founded!!!!!!!!!
+109.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 109.jpg
+Detection took 4.512s for 300 object proposals
+no tampered founded!!!!!!!!!
+194.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 194.jpg
+Detection took 4.290s for 300 object proposals
+no tampered founded!!!!!!!!!
+313.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 313.jpg
+Detection took 4.741s for 300 object proposals
+no tampered founded!!!!!!!!!
+299.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 299.jpg
+Detection took 4.436s for 300 object proposals
+no tampered founded!!!!!!!!!
+365.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 365.jpg
+Detection took 4.436s for 300 object proposals
+no tampered founded!!!!!!!!!
+128.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 128.jpg
+Detection took 4.588s for 300 object proposals
+no tampered founded!!!!!!!!!
+49.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 49.jpg
+Detection took 4.345s for 300 object proposals
+46.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 46.jpg
+Detection took 4.355s for 300 object proposals
+298.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 298.jpg
+Detection took 4.617s for 300 object proposals
+no tampered founded!!!!!!!!!
+198.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 198.jpg
+Detection took 4.281s for 300 object proposals
+no tampered founded!!!!!!!!!
+6.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 6.jpg
+Detection took 4.403s for 300 object proposals
+66.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 66.jpg
+Detection took 4.564s for 300 object proposals
+no tampered founded!!!!!!!!!
+13.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 13.jpg
+Detection took 4.540s for 300 object proposals
+no tampered founded!!!!!!!!!
+253.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 253.jpg
+Detection took 4.586s for 300 object proposals
+no tampered founded!!!!!!!!!
+76.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 76.jpg
+Detection took 4.681s for 300 object proposals
+no tampered founded!!!!!!!!!
+293.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 293.jpg
+Detection took 4.929s for 300 object proposals
+no tampered founded!!!!!!!!!
+238.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 238.jpg
+Detection took 4.543s for 300 object proposals
+no tampered founded!!!!!!!!!
+244.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 244.jpg
+Detection took 4.287s for 300 object proposals
+no tampered founded!!!!!!!!!
+261.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 261.jpg
+Detection took 4.589s for 300 object proposals
+no tampered founded!!!!!!!!!
+202.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 202.jpg
+Detection took 4.651s for 300 object proposals
+no tampered founded!!!!!!!!!
+390.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 390.jpg
+Detection took 4.320s for 300 object proposals
+no tampered founded!!!!!!!!!
+366.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 366.jpg
+Detection took 4.218s for 300 object proposals
+no tampered founded!!!!!!!!!
+90.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 90.jpg
+Detection took 4.245s for 300 object proposals
+no tampered founded!!!!!!!!!
+196.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 196.jpg
+Detection took 4.600s for 300 object proposals
+no tampered founded!!!!!!!!!
+438.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 438.jpg
+Detection took 4.242s for 300 object proposals
+no tampered founded!!!!!!!!!
+343.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 343.jpg
+Detection took 4.369s for 300 object proposals
+no tampered founded!!!!!!!!!
+101.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 101.jpg
+Detection took 4.183s for 300 object proposals
+no tampered founded!!!!!!!!!
+188.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 188.jpg
+Detection took 4.525s for 300 object proposals
+no tampered founded!!!!!!!!!
+18.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 18.jpg
+Detection took 4.426s for 300 object proposals
+335.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 335.jpg
+Detection took 4.628s for 300 object proposals
+no tampered founded!!!!!!!!!
+203.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 203.jpg
+Detection took 4.732s for 300 object proposals
+no tampered founded!!!!!!!!!
+113.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 113.jpg
+Detection took 4.592s for 300 object proposals
+no tampered founded!!!!!!!!!
+324.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 324.jpg
+Detection took 4.525s for 300 object proposals
+no tampered founded!!!!!!!!!
+153.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 153.jpg
+Detection took 4.936s for 300 object proposals
+no tampered founded!!!!!!!!!
+304.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 304.jpg
+Detection took 4.291s for 300 object proposals
+no tampered founded!!!!!!!!!
+222.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 222.jpg
+Detection took 4.712s for 300 object proposals
+no tampered founded!!!!!!!!!
+341.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 341.jpg
+Detection took 4.307s for 300 object proposals
+no tampered founded!!!!!!!!!
+370.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 370.jpg
+Detection took 4.882s for 300 object proposals
+no tampered founded!!!!!!!!!
+62.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 62.jpg
+Detection took 4.616s for 300 object proposals
+307.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 307.jpg
+Detection took 4.223s for 300 object proposals
+no tampered founded!!!!!!!!!
+285.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 285.jpg
+Detection took 4.800s for 300 object proposals
+no tampered founded!!!!!!!!!
+82.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 82.jpg
+Detection took 4.406s for 300 object proposals
+no tampered founded!!!!!!!!!
+99.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 99.jpg
+Detection took 4.591s for 300 object proposals
+no tampered founded!!!!!!!!!
+32.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 32.jpg
+Detection took 3.610s for 300 object proposals
+404.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 404.jpg
+Detection took 3.432s for 300 object proposals
+no tampered founded!!!!!!!!!
+241.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 241.jpg
+Detection took 3.353s for 300 object proposals
+no tampered founded!!!!!!!!!
+351.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 351.jpg
+Detection took 3.360s for 300 object proposals
+no tampered founded!!!!!!!!!
+246.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 246.jpg
+Detection took 3.341s for 300 object proposals
+no tampered founded!!!!!!!!!
+323.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 323.jpg
+Detection took 3.371s for 300 object proposals
+no tampered founded!!!!!!!!!
+286.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 286.jpg
+Detection took 3.271s for 300 object proposals
+no tampered founded!!!!!!!!!
+65.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 65.jpg
+Detection took 3.376s for 300 object proposals
+91.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 91.jpg
+Detection took 3.284s for 300 object proposals
+no tampered founded!!!!!!!!!
+206.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 206.jpg
+Detection took 3.375s for 300 object proposals
+no tampered founded!!!!!!!!!
+169.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 169.jpg
+Detection took 3.289s for 300 object proposals
+no tampered founded!!!!!!!!!
+273.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 273.jpg
+Detection took 3.331s for 300 object proposals
+no tampered founded!!!!!!!!!
+427.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 427.jpg
+Detection took 3.325s for 300 object proposals
+no tampered founded!!!!!!!!!
+282.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 282.jpg
+Detection took 3.335s for 300 object proposals
+no tampered founded!!!!!!!!!
+172.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 172.jpg
+Detection took 3.330s for 300 object proposals
+no tampered founded!!!!!!!!!
+7.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 7.jpg
+Detection took 3.515s for 300 object proposals
+no tampered founded!!!!!!!!!
+104.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 104.jpg
+Detection took 3.559s for 300 object proposals
+no tampered founded!!!!!!!!!
+430.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 430.jpg
+Detection took 3.416s for 300 object proposals
+no tampered founded!!!!!!!!!
+311.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 311.jpg
+Detection took 3.513s for 300 object proposals
+no tampered founded!!!!!!!!!
+227.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 227.jpg
+Detection took 3.362s for 300 object proposals
+no tampered founded!!!!!!!!!
+424.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 424.jpg
+Detection took 3.906s for 300 object proposals
+no tampered founded!!!!!!!!!
+204.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 204.jpg
+Detection took 4.757s for 300 object proposals
+no tampered founded!!!!!!!!!
+235.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 235.jpg
+Detection took 4.397s for 300 object proposals
+no tampered founded!!!!!!!!!
+84.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 84.jpg
+Detection took 3.979s for 300 object proposals
+no tampered founded!!!!!!!!!
+440.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 440.jpg
+Detection took 4.171s for 300 object proposals
+no tampered founded!!!!!!!!!
+110.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 110.jpg
+Detection took 4.422s for 300 object proposals
+no tampered founded!!!!!!!!!
+155.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 155.jpg
+Detection took 4.015s for 300 object proposals
+no tampered founded!!!!!!!!!
+185.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 185.jpg
+Detection took 4.189s for 300 object proposals
+no tampered founded!!!!!!!!!
+224.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 224.jpg
+Detection took 4.035s for 300 object proposals
+no tampered founded!!!!!!!!!
+134.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 134.jpg
+Detection took 4.098s for 300 object proposals
+no tampered founded!!!!!!!!!
+442.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 442.jpg
+Detection took 4.024s for 300 object proposals
+no tampered founded!!!!!!!!!
+152.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 152.jpg
+Detection took 3.923s for 300 object proposals
+no tampered founded!!!!!!!!!
+5.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 5.jpg
+Detection took 4.070s for 300 object proposals
+no tampered founded!!!!!!!!!
+41.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 41.jpg
+Detection took 3.940s for 300 object proposals
+233.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 233.jpg
+Detection took 3.967s for 300 object proposals
+no tampered founded!!!!!!!!!
+407.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 407.jpg
+Detection took 4.117s for 300 object proposals
+no tampered founded!!!!!!!!!
+396.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 396.jpg
+Detection took 4.736s for 300 object proposals
+no tampered founded!!!!!!!!!
+181.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 181.jpg
+Detection took 4.067s for 300 object proposals
+no tampered founded!!!!!!!!!
+53.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 53.jpg
+Detection took 4.127s for 300 object proposals
+284.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 284.jpg
+Detection took 4.059s for 300 object proposals
+no tampered founded!!!!!!!!!
+160.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 160.jpg
+Detection took 3.886s for 300 object proposals
+no tampered founded!!!!!!!!!
+354.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 354.jpg
+Detection took 3.957s for 300 object proposals
+no tampered founded!!!!!!!!!
+386.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 386.jpg
+Detection took 4.031s for 300 object proposals
+no tampered founded!!!!!!!!!
+150.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 150.jpg
+Detection took 3.974s for 300 object proposals
+no tampered founded!!!!!!!!!
+123.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 123.jpg
+Detection took 4.070s for 300 object proposals
+no tampered founded!!!!!!!!!
+159.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 159.jpg
+Detection took 3.580s for 300 object proposals
+no tampered founded!!!!!!!!!
+328.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 328.jpg
+Detection took 3.921s for 300 object proposals
+no tampered founded!!!!!!!!!
+322.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 322.jpg
+Detection took 4.593s for 300 object proposals
+no tampered founded!!!!!!!!!
+364.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 364.jpg
+Detection took 4.382s for 300 object proposals
+no tampered founded!!!!!!!!!
+147.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 147.jpg
+Detection took 4.573s for 300 object proposals
+no tampered founded!!!!!!!!!
+163.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 163.jpg
+Detection took 4.602s for 300 object proposals
+no tampered founded!!!!!!!!!
+272.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 272.jpg
+Detection took 4.448s for 300 object proposals
+no tampered founded!!!!!!!!!
+431.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 431.jpg
+Detection took 4.620s for 300 object proposals
+no tampered founded!!!!!!!!!
+316.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 316.jpg
+Detection took 4.378s for 300 object proposals
+no tampered founded!!!!!!!!!
+309.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 309.jpg
+Detection took 4.524s for 300 object proposals
+no tampered founded!!!!!!!!!
+102.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 102.jpg
+Detection took 4.393s for 300 object proposals
+no tampered founded!!!!!!!!!
+325.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 325.jpg
+Detection took 4.561s for 300 object proposals
+no tampered founded!!!!!!!!!
+87.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 87.jpg
+Detection took 4.433s for 300 object proposals
+no tampered founded!!!!!!!!!
+360.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 360.jpg
+Detection took 4.567s for 300 object proposals
+no tampered founded!!!!!!!!!
+371.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 371.jpg
+Detection took 4.298s for 300 object proposals
+no tampered founded!!!!!!!!!
+428.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 428.jpg
+Detection took 4.379s for 300 object proposals
+no tampered founded!!!!!!!!!
+278.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 278.jpg
+Detection took 4.374s for 300 object proposals
+no tampered founded!!!!!!!!!
+136.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 136.jpg
+Detection took 4.711s for 300 object proposals
+no tampered founded!!!!!!!!!
+199.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 199.jpg
+Detection took 4.894s for 300 object proposals
+no tampered founded!!!!!!!!!
+124.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 124.jpg
+Detection took 4.400s for 300 object proposals
+no tampered founded!!!!!!!!!
+437.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 437.jpg
+Detection took 4.367s for 300 object proposals
+no tampered founded!!!!!!!!!
+254.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 254.jpg
+Detection took 4.872s for 300 object proposals
+no tampered founded!!!!!!!!!
+443.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 443.jpg
+Detection took 4.341s for 300 object proposals
+no tampered founded!!!!!!!!!
+332.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 332.jpg
+Detection took 4.496s for 300 object proposals
+no tampered founded!!!!!!!!!
+397.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 397.jpg
+Detection took 4.325s for 300 object proposals
+no tampered founded!!!!!!!!!
+209.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 209.jpg
+Detection took 4.516s for 300 object proposals
+no tampered founded!!!!!!!!!
+327.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 327.jpg
+Detection took 4.576s for 300 object proposals
+no tampered founded!!!!!!!!!
+268.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 268.jpg
+Detection took 4.384s for 300 object proposals
+no tampered founded!!!!!!!!!
+399.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 399.jpg
+Detection took 4.490s for 300 object proposals
+no tampered founded!!!!!!!!!
+58.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 58.jpg
+Detection took 4.291s for 300 object proposals
+262.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 262.jpg
+Detection took 4.500s for 300 object proposals
+no tampered founded!!!!!!!!!
+290.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 290.jpg
+Detection took 4.424s for 300 object proposals
+no tampered founded!!!!!!!!!
+391.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 391.jpg
+Detection took 4.384s for 300 object proposals
+no tampered founded!!!!!!!!!
+94.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 94.jpg
+Detection took 4.578s for 300 object proposals
+no tampered founded!!!!!!!!!
+247.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 247.jpg
+Detection took 4.516s for 300 object proposals
+no tampered founded!!!!!!!!!
+243.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 243.jpg
+Detection took 4.382s for 300 object proposals
+no tampered founded!!!!!!!!!
+164.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 164.jpg
+Detection took 4.445s for 300 object proposals
+no tampered founded!!!!!!!!!
+433.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 433.jpg
+Detection took 4.274s for 300 object proposals
+no tampered founded!!!!!!!!!
+287.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demo for 287.jpg
+Detection took 4.492s for 300 object proposals
+no tampered founded!!!!!!!!!
+demo_two_stream.py:46: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, ax = plt.subplots(figsize=(12, 12))
