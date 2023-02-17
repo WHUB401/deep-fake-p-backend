@@ -34,5 +34,6 @@ build/
 
 ### Resource ###
 *.jpg
+*.jpeg
 *.png
 *.mp4
